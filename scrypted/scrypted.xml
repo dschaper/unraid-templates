@@ -10,7 +10,7 @@
   <Project>https://github.com/koush/scrypted</Project>
   <Overview>Scrypted Home Automation</Overview>
   <Category>HomeAutomation:</Category>
-  <WebUI>https://[IP]:[PORT]:10443/</WebUI>
+  <WebUI>https://[IP]:[PORT:10443]/</WebUI>
   <TemplateURL/>
   <ExtraParams/>
   <PostArgs/>
