@@ -17,14 +17,7 @@
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Description>Scrypted Home Automation</Description>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/scrypted</HostDir>
-      <ContainerDir>/server/volume</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+  <Description>Scrypted Home Automation -d</Description>
   <Environment/>
   <Labels/>
   <Config Name="Appdata" Target="/server/volume" Default="/mnt/user/appdata/scrypted" Mode="rw" Description="Container Path: /server/volume" Type="Path" Display="always" Required="false" Mask="false"/>
