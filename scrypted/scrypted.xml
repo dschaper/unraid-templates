@@ -3,7 +3,6 @@
   <Name>scrypted</Name>
   <Repository>koush/scrypted</Repository>
   <Registry>https://hub.docker.com/r/koush/scrypted/</Registry>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/koush/scrypted/</Support>
@@ -15,8 +14,6 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DonateText/>
-  <DonateLink/>
   <Description>Scrypted Home Automation -d</Description>
   <Environment/>
   <Labels/>
