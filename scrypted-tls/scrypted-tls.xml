@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>scrypted</Name>
+  <Repository>koush/scrypted</Repository>
+  <Registry>https://hub.docker.com/r/koush/scrypted/</Registry>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/koush/scrypted/</Support>
+  <Project>https://github.com/koush/scrypted</Project>
+  <Overview>Scrypted Home Automation</Overview>
+  <Category>HomeAutomation:</Category>
+  <WebUI>https://[IP]:[PORT:10443]/</WebUI>
+  <TemplateURL/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <Description>Scrypted Home Automation -d</Description>
+  <Environment/>
+  <Labels/>
+  <Config Name="Appdata" Target="/server/volume" Default="/mnt/user/appdata/scrypted" Mode="rw" Description="Container Path: /server/volume" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="WebUI" Target="10443" Default="10443" Mode="tcp" Description="Web Inteface Port" Type="Port" Display="always" Required="true" Mask="false" />
+</Container>
