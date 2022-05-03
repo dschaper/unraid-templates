@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Actual Server</Name>
-  <Repository>actualbudget/actual-server</Repository>
+  <Repository>marviins87/actual-server</Repository>
   <Registry>https://hub.docker.com/r/marviins87/actual-server</Registry>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -10,7 +10,6 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <Description>Scrypted Home Automation -d</Description>
   <Environment/>
   <Labels/>
   <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/actual-server" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false"/>
