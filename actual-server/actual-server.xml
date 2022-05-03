@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Actual Server</Name>
+  <Repository>actualbudget/actual-server</Repository>
+  <Registry>https://hub.docker.com/r/marviins87/actual-server</Registry>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <WebUI>https://[IP]:[PORT:5006]/</WebUI>
+  <TemplateURL/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <Description>Scrypted Home Automation -d</Description>
+  <Environment/>
+  <Labels/>
+  <Config Name="Appdata" Target="/data" Default="/mnt/user/appdata/actual-server" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="WebUI" Target="5006" Default="5006" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false" />
+</Container>
